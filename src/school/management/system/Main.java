@@ -27,37 +27,29 @@ public class Main {
 		studentList.add(rabbi);
 
 
-		School ghs =new School(teacherList,studentList);
+		School gpg =new School(teacherList,studentList);
 
 		//Teacher megan=new Teacher(6,"Megan",900);
-	    //ghs.addTeacher(megan);
+	    //gpg.addTeacher(megan);
 
 		tamasha.payfees(5000);
         rakshith.payfees(6000);
-		System.out.println("GHS has earned $"+ ghs.getTotalMoneyEarned());
+		System.out.println("GPG has earned $"+ gpg.getTotalMoneyEarned());
 
 		System.out.println("----- MAKING SCHOOL PAY SALARY ------");
 
 		lizzy.receiveSalary(lizzy.getSalary());
 		System.out.println("GPG has spent for salary to "+ lizzy.getName()
-		+" and now has $" +ghs.getTotalMoneyEarned());
+		+" and now has $" +gpg.getTotalMoneyEarned());
 
 		vanderhorn.receiveSalary(vanderhorn.getSalary());
 		System.out.println("GPG has spent for salary to "+ vanderhorn.getName()
-		+" and now has $" +ghs.getTotalMoneyEarned());
+		+" and now has $" +gpg.getTotalMoneyEarned());
 
 		System.out.println( rakshith);
 
 		mellisa.receiveSalary(mellisa.getSalary());
 		System.out.println(mellisa);
 
-
-		//System.out.println("Rakshith remaining fees is "+ rakshith.getRemainingfees());
-		//System.out.println("Tamasha remaining fees is "+ tamasha.getRemainingfees());
-		//System.out.println("Rabbi remaining fees is "+ rabbi.getRemainingfees());
-		//System.out.println(tamasha);
-		//megan.receiveSalary(megan.getSalary());
-		//System.out.println("GHS has spent for salary to "+megan.getName()
-		//+" and now has $" +ghs.getTotalMoneyEarned());
 	}
 }
